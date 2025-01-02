@@ -10,6 +10,7 @@ namespace APIRateLimit.Controllers
         [HttpGet]
         public IActionResult Get()
         {
+            var Text="";
             return Ok("You are allowed to make this request.");
         }
     }
